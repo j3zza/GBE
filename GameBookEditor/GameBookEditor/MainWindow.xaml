@@ -20,29 +20,46 @@
             <RowDefinition Height="auto" />
             <RowDefinition Height="auto" />
             <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
             <RowDefinition Height="*" />
             <RowDefinition Height="20" />
 
         </Grid.RowDefinitions>
-        
-        <Button x:Name="btnNewStoryBlock" Content="New Story Block" Grid.Column="1" Grid.Row="1" Click="btnNewStoryBlock_Click"/>
-        <Button Content="Refresh" Grid.Column="1" Grid.Row="2" Click="Button_Click"/>
-        <ComboBox x:Name="cboStoryBlocks" Grid.Column="1" Grid.Row="3">
 
+
+        <Label Content="Story" Grid.Column="1" Grid.Row="1"></Label>
+        <Label x:Name="lblStoryName" Content="Not selected" Grid.Column="2" Grid.Row="1"></Label>
+
+
+        <Label Content="Stories" Grid.Column="1" Grid.Row="2"></Label>
+
+        <ComboBox x:Name="cboStories" Grid.Column="2" Grid.Row="2">
             <ComboBox.ItemTemplate>
-
                 <DataTemplate>
                     <TextBlock Text = "{Binding firstName}" />
-
-
                 </DataTemplate>
-                
-                
             </ComboBox.ItemTemplate>
-            
-            
-            
         </ComboBox>
+
+
+        <Button x:Name="btnNewStory" Content="Add New Story" Grid.Column="1" Grid.Row="3" Click="btnNewStory_Click"/>
+        <Button x:Name="btnNewStoryBlock" Content="Add New Story Block" Grid.Column="1" Grid.Row="4" Click="btnNewStoryBlock_Click"/>
+        <Button Content="Refresh" Grid.Column="1" Grid.Row="5" Click="Button_Click"/>
+        <Label Content="Story blocks" Grid.Column="1" Grid.Row="6"></Label>
+        <ComboBox x:Name="cboStoryBlocks" Grid.Column="2" Grid.Row="7">
+            <ComboBox.ItemTemplate>
+                <DataTemplate>
+                    <TextBlock Text = "{Binding firstName}" />
+                </DataTemplate>
+            </ComboBox.ItemTemplate>
+        </ComboBox>
+
+        <Button Content="Export Story" Grid.Column="1" Grid.Row="8" Click="Button_Click_1"></Button>
         
+
     </Grid>
 </Window>

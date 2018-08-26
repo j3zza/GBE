@@ -37,6 +37,7 @@ namespace GameBookEditor
 
 
 
+
         public MainWindow()
         {
             InitializeComponent();
@@ -63,22 +64,39 @@ namespace GameBookEditor
 
 
 
+
+
         }
 
         private void btnNewStoryBlock_Click(object sender, RoutedEventArgs e)
         {
-
             StoryBlock frmStoryBlock = new StoryBlock();
             frmStoryBlock.addMode = true;
             frmStoryBlock.Show();
-
-
-
         }
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
+
+
+
+        }
+
+        private void btnNewStory_Click(object sender, RoutedEventArgs e)
+        {
+
+            Story frmStory = new Story();
+            frmStory.addMode = true;
+            frmStory.Show();
+
+
+
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            // export story to MySQL DB
 
 
 

@@ -15,6 +15,7 @@ namespace GameBookEditor
 
         }
 
+        public DbSet<GBStory> GBStory { get; set; }
         public DbSet<GBStoryBlock> GBStoryBlocks { get; set; }
         public DbSet<GBStoryBlockChoice> GBStoryBlockChoices { get; set; }
     }

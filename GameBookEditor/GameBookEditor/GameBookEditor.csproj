@@ -62,6 +62,15 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="GBStory.cs" />
+    <Compile Include="Migrations\201806291113252_InitialCreate.cs" />
+    <Compile Include="Migrations\201806291113252_InitialCreate.Designer.cs">
+      <DependentUpon>201806291113252_InitialCreate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Story.xaml.cs">
+      <DependentUpon>Story.xaml</DependentUpon>
+    </Compile>
     <Compile Include="StoryBlock.xaml.cs">
       <DependentUpon>StoryBlock.xaml</DependentUpon>
     </Compile>
@@ -91,6 +100,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="Story.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="StoryBlock.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -113,6 +126,9 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <EmbeddedResource Include="Migrations\201806291113252_InitialCreate.resx">
+      <DependentUpon>201806291113252_InitialCreate.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

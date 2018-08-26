@@ -1,7 +1,6 @@
 C:\dev\GameBookEditor\GameBookEditor\GameBookEditor\bin\Debug\GameBookEditor.exe.config
 C:\dev\GameBookEditor\GameBookEditor\GameBookEditor\bin\Debug\GameBookEditor.exe
 C:\dev\GameBookEditor\GameBookEditor\GameBookEditor\bin\Debug\GameBookEditor.pdb
-C:\dev\GameBookEditor\GameBookEditor\GameBookEditor\obj\Debug\GameBookEditor.csprojAssemblyReference.cache
 C:\dev\GameBookEditor\GameBookEditor\GameBookEditor\obj\Debug\MainWindow.g.cs
 C:\dev\GameBookEditor\GameBookEditor\GameBookEditor\obj\Debug\App.g.cs
 C:\dev\GameBookEditor\GameBookEditor\GameBookEditor\obj\Debug\GameBookEditor_MarkupCompile.cache
@@ -24,3 +23,7 @@ C:\dev\GameBookEditor\GameBookEditor\GameBookEditor\bin\Debug\EntityFramework.Sq
 C:\dev\GameBookEditor\GameBookEditor\GameBookEditor\obj\Debug\GameBookEditor.csproj.CopyComplete
 C:\dev\GameBookEditor\GameBookEditor\GameBookEditor\obj\Debug\StoryBlock.g.cs
 C:\dev\GameBookEditor\GameBookEditor\GameBookEditor\obj\Debug\StoryBlock.baml
+C:\dev\GameBookEditor\GameBookEditor\GameBookEditor\obj\Debug\Story.g.cs
+C:\dev\GameBookEditor\GameBookEditor\GameBookEditor\obj\Debug\Story.baml
+C:\dev\GameBookEditor\GameBookEditor\GameBookEditor\obj\Debug\GameBookEditor.csprojAssemblyReference.cache
+C:\dev\GameBookEditor\GameBookEditor\GameBookEditor\obj\Debug\GameBookEditor.Migrations.InitialCreate.resources
